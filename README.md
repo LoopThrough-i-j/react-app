@@ -12,10 +12,13 @@ https://loopthrough-i-j.github.io/react-app/
 - Run 
     - ```git clone https://github.com/LoopThrough-i-j/react-app.git```
     - ```cd react-app``` 
+    - ```sudo npm install```
+    - ```sudo npm start```
 
 ### Contribute
 - ```cd react-app``` 
 - ```npm install```
+- ```sudo npm start```
 - Make changes in src
 - Run in terminal ```bash build.sh```
 - git add .
