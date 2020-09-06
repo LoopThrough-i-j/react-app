@@ -8,13 +8,16 @@ https://loopthrough-i-j.github.io/react-app/
 ## Build Locally
 
 ### Download Locally
- 
-- ```git clone https://github.com/LoopThrough-i-j/react-app.git```
+
+- ```https://github.com/LoopThrough-i-j/react-app.git```
 - ```cd react-app``` 
 - ```sudo npm install```
 - ```sudo npm start```
 
 ### Contribute
+
+- Fork the repo( Use the Button on the top right named **Fork**)
+- ```git clone https://github.com/<Your-User-Name>/react-app.git```
 - ```cd react-app``` 
 - ```npm install```
 - ```sudo npm start```

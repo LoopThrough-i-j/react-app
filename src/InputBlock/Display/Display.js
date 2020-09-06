@@ -7,9 +7,9 @@ const Display = (props) => {
     console.log(props.name);
     console.log(props.orgName);
     props.name.localeCompare(props.orgName)?
-        message = "Shoo Shoo. You are not Welcome. Only Debayan is Welcome"
+        message = `Shoo Shoo. You are not Welcome. ${props.name} is not welcome. Only ${props.orgName} is welcome`
         :
-        message = "Welcome.";
+        message = `Welcome ${props.orgName}.`;
     
 
     return (
