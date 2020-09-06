@@ -17,7 +17,7 @@ https://loopthrough-i-j.github.io/react-app/
 ### Contribute
 
 - Fork the repo( Use the Button on the top right named **Fork**)
-- ```git clone https://github.com/<Your-User-Name>/react-app.git```
+- ```git clone https://github.com/```**Your-User-Name**```/react-app.git```
 - ```cd react-app``` 
 - ```npm install```
 - ```sudo npm start```
