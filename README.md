@@ -9,7 +9,7 @@ https://loopthrough-i-j.github.io/react-app/
 
 ### Download Locally
 
-- ```https://github.com/LoopThrough-i-j/react-app.git```
+- ```git clone https://github.com/<Your-User-Name>/react-app.git```
 - ```cd react-app``` 
 - ```sudo npm install```
 - ```sudo npm start```
