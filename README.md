@@ -8,12 +8,11 @@ https://loopthrough-i-j.github.io/react-app/
 ## Build Locally
 
 ### Download Locally
-
-- Run 
-    - ```git clone https://github.com/LoopThrough-i-j/react-app.git```
-    - ```cd react-app``` 
-    - ```sudo npm install```
-    - ```sudo npm start```
+ 
+- ```git clone https://github.com/LoopThrough-i-j/react-app.git```
+- ```cd react-app``` 
+- ```sudo npm install```
+- ```sudo npm start```
 
 ### Contribute
 - ```cd react-app``` 
@@ -21,6 +20,6 @@ https://loopthrough-i-j.github.io/react-app/
 - ```sudo npm start```
 - Make changes in src
 - Run in terminal ```bash build.sh```
-- git add .
-- git commit -m "Commit Message"
-- git push origin master
+- ```git add .```
+- ```git commit -m "Commit Message"```
+- ```git push origin master```
