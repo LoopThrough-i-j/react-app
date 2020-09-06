@@ -1,43 +1,56 @@
 import React,{Component} from 'react';
-import styled from '@emotion/styled'
+import InputForm from './Input/Input.js';
+import Display from './Display/Display.js';
+import './InputBlock.css';
 
 class InputBlock extends Component {
 
-    constructor(props){
+    constructor(){
         super();
+        
         this.state ={
             input: true,
-            name: "Debayan"
+            name: "Debayan",
+            orgName: "Debayan"
         }
+        
     }
 
-    inputToOutput = () => {
+    changeName = (e) =>{
         this.setState({
-            input: !(this.state.input)
-        });
+            name: e.target.value
+        })
+    }
+    changeInputState = () =>{
+        
+        this.setState({
+            input: !this.state.input
+        })
     }
     
-    formValueChange = (newName) => {
-        this.setState({
-            name: newName
-        });
-    }
-
 
     render(){
-
-        const DIV = styled.div`
-            height: 20rem;
-            width: 20rem;
-            border: 1px solid red;
-            margin: auto;
-            margin-top: 30vh
-        `;
-
+        let inputfield = (
+            <InputForm 
+                name = {this.state.name} 
+                changeName = {this.changeName}
+                changeState = {this.changeInputState}
+            />
+        );
+        let display = (
+            <Display 
+                name = {this.state.name} 
+                orgName = {this.state.orgName} 
+                changeState = {this.changeInputState} 
+            />
+        );
         return (
-            <DIV>
-                <Input >
-            </DIV>
+            <div className="input-block">
+                {this.state.input?
+                    display: 
+                    inputfield
+                }
+            </div>
         );
 
     }

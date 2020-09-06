@@ -1,0 +1,33 @@
+.input-block:hover .form,
+.input-block:focus .form,
+.input-block:focus-within .form{
+    /* position: relative; */
+    width: 100%;
+    margin: 0 auto;
+    visibility: visible;
+}
+.form{
+    visibility: hidden;
+}
+input{
+    text-align: center;
+    width: 300px;
+    height:30px;
+    margin: 20px;
+    padding: 10px;
+    font-size: 20px;
+    border: none;
+    visibility: visible;
+}
+input:hover,
+input:focus{
+    border: none;
+    outline: none;
+}
+
+.submit-form{
+    width: 150px;
+    margin: 20px;
+    padding: 10px;
+    font-size: 20px;
+}

@@ -1,0 +1,24 @@
+.output{
+    visibility: hidden;
+}
+.input-block:hover .output{   
+    width: 340px;
+    margin: 20px;
+    font-size: 20px;
+    visibility: visible;
+}
+.value{
+    font-size: 20px;
+    margin: auto;
+    margin-top: 24px;
+    padding: 10px;
+    width: 300px;
+    height: fit-content;
+}
+.message{
+    font-size: 20px;
+    margin: auto;
+    margin-top: 50px;
+    width: fit-content;
+    height: fit-content;
+}

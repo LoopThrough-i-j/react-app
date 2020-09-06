@@ -1,0 +1,15 @@
+.input-block{
+    width: 380px;
+    height: 200px;
+    border: 2px solid transparent;
+    margin: auto;
+    margin-top: 30vh;
+    padding: 20px;
+    
+}
+.input-block:hover,
+.input-block:focus-within,
+.input-block:focus{
+    border: 2px solid red;
+    
+}
